@@ -3,6 +3,7 @@ const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
 const browserSync = require('browser-sync');
+const htmlmin = require('gulp-htmlmin');
 const uglify = require('gulp-uglifyjs');
 
 
