@@ -1,0 +1,11 @@
+/*
+Developer name: Jeandre Melaria
+Project title: Item lister
+Platform: Bootstrap
+Programming language: HTML5, CSS3, Javascript
+IDE tool: Dreamweaver
+Database:  -
+Project type: Email newsletter template.
+File created date: 29.10.2017
+Last modified: 
+*/
