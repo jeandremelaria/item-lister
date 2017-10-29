@@ -52,7 +52,7 @@ gulp.task('default', ['message', 'copyHtml','prefixerAndCssNano', 'uglify']);
 //----- GULP WATCH -----//
 gulp.task('watch',['browserSync'], function(){
 	gulp.watch('src/css/*.css',['prefixerAndCssNano']);
-	gulp.watch('src/*.js',['uglify']);
+	gulp.watch('src/js/*.js',['uglify']);
 	gulp.watch('src/*.html',['copyHtml']);
 	
 	
