@@ -12,11 +12,23 @@ Last modified:
 -->
 <html>
 <head>
+<!-- Meta tag -->
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Email newsletter">
+<meta name="keywords" content="email, newsletter, Jeandre, Melaria, www.jeandremelaria.nl">
+<meta name="author" content="Jeandre Melaria">
 <title>Item lister</title>
+
+<!-- Bootstrap 4 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
+
+<!-- Style css -->
+<link href="css/style.css" rel="stylesheet" title="style" type="text/css">
 </head>
 <body>
-<header id="main-header" class="bg-success text-white p-4 mb-3">
+<header id="main-header" class="bg-header text-white p-4 mb-3">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -33,7 +45,7 @@ Last modified:
     <h2 class="title">Add Items</h2>
     <form id="addForm" class="form-inline mb-3">
       <input type="text" class="form-control mr-2" id="item">
-      <input type="submit" class="btn btn-dark" value="Submit">
+      <input type="submit" class="btn btn-info" value="Submit">
     </form>
     <h2 class="title">Items</h2>
     <ul id="items" class="list-group">

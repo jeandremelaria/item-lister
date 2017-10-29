@@ -12,3 +12,62 @@ Project type: Email newsletter template.
 File created date: 29.10.2017
 Last modified: 
  */
+.bg-header {
+  background-color: #0bb5ff;
+}
+.title,
+.form-inline {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+.list-group-item {
+  width: 100%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+ul {
+  width: 95%;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+button {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+footer {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+@media (max-width: 574px) {
+  .btn {
+    margin-top: 1rem;
+  }
+  ul {
+    width: 85%;
+    margin-top: 0.5rem;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
+}

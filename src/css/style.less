@@ -10,3 +10,72 @@ File created date: 29.10.2017
 Last modified: 
  */
 
+// === === Table of contents === === //
+// - Variables
+// - Functions
+// - Mixings
+// - Global
+
+// === === Variables === === //
+@color-1: #0BB5FF;
+
+
+
+// === === Functions === === //
+.bgColor(@bgColor:@color-1){
+	background-color:@bgColor ;
+}
+.margin(@margin-top:0.5rem, @margin-right:1rem, @margin-bottom:0.5rem, @margin-left:1rem){
+	margin-top:@margin-top;
+	margin-right:@margin-right;
+	margin-bottom:@margin-bottom;
+	margin-left:@margin-left;
+}
+.padding(@padding-top:0.5rem, @padding-right:1rem, @padding-bottom:0.5rem, @padding-left:1rem){
+	padding-top:@padding-top;
+	padding-right:@padding-right;
+	padding-bottom:@padding-bottom;
+	padding-left:@padding-left;
+}
+
+// === === Mixings === === //
+.bg-header{
+	.bgColor();
+}
+.title, .form-inline{
+	.margin();
+	.padding();
+}
+.list-group-item{
+	width:100%;
+	margin-left:0.5rem;
+	margin-right:0.5rem;
+}
+
+// === === Global === === //
+ul{
+	width:95%;
+	.margin(0.5rem,auto,0.5rem,auto);
+	.padding(@padding-bottom:2rem);
+}
+
+button{
+	.margin(0,0,0,auto);
+}
+
+footer{
+	text-align:center;
+	.margin();
+}
+
+@media (max-width: 574px){
+	.btn{
+		margin-top:1rem;
+	}
+	
+	ul{
+		width:85%;
+		.margin(0.5rem,auto,0.5rem,auto);
+		.padding(@padding-bottom:2rem);
+	}
+}
